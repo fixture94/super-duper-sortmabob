@@ -26,7 +26,7 @@ while True:
      
     istart += startfix
     iend += endfix
-    print "JPG %d from %d to %d" % (njpg, istart, iend)
+    print("JPG " + njpg + " from " + istart +" to " + iend)
     jpg = pdf[istart:iend]
     jpgfile = file("jpg%d.jpg" % njpg, "wb")
     jpgfile.write(jpg)

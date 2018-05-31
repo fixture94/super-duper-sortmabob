@@ -1,8 +1,3 @@
-import pillow
-import teseract
-import tensorflow
-import pyautogui
-import PyPDF2
 
 #TODO: Define a main class that runs the program
 
